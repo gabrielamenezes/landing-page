@@ -1,0 +1,1076 @@
+@media (min-width: 320px) {
+    /* ======== HEADER ========= */
+
+    #header {
+        background-color: var(--light-purple);
+        height: 4.8rem;
+        font-family: var(--font-2);
+    }
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 4.8rem;
+    }
+    
+    #header p {
+        color: var(--white);
+        max-width: 190px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    #header .header-content a {
+        display: none;
+    }
+    
+    
+    
+    /* ====== FIM HEADER ========= */
+
+
+    /* ========= PRIMEIRA SECTION ===========*/
+    #main-section {
+        background: url(../images/bg-mobile.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pos-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+    #main-section h2 {
+        font-size: 2.5rem;
+        color: var(--light-purple);
+        font-family: var(--font-2);
+        max-width: 179px;
+        padding: 2rem 0;
+    }
+    
+    #main-section p {
+        color: var(--light-purple);
+        font-family: var(--font-1);
+        font-weight: bold;
+        max-width: 142px;
+    }
+
+    /* ======= FIM PRIMEIRA SECTION ========== */
+
+    /* ================ SEGUNDA SECTION =============== */
+
+    #product-desc-section {
+        background-color: #5d4b79;
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    #product-desc-section .content-block {
+        padding-top: 3rem;
+    
+    }
+    
+    #product-desc-section h2 {
+        color: var(--green);
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    #product-desc-section p {
+        color: var(--white);
+        margin: 1rem 0;
+    }
+    
+    #product-desc-section img {
+        width: 170px;
+    }
+
+    /* ========== FIM SEGUNDA SECTION ============ */
+
+    /* =========== TERCEIRA SECTION ============ */
+
+    #benefits-section {
+        height: 100%;
+        background-color: whitesmoke;
+        padding-bottom: 2rem;
+    }
+
+    #benefits-section .obasmart-md {
+        display: none;
+    }
+    
+    #benefits-section .icon-container {
+        align-items: center;
+    }
+    
+    #benefits-section h2 {
+        color: var(--light-purple);
+        font-size: 1.9rem;
+        padding: 2rem 0;
+    }
+    
+    #benefits-section .icon-benefits {
+        width: 50px;
+    }
+
+    #benefits-section .icon-title {
+        font-weight: bold;
+        color: var(--light-purple);
+        font-family: var(--font-1);
+        margin: 0.8rem 0;
+    }
+
+    #benefits-section .icon-desc {
+        margin-bottom: 1rem;
+    }
+
+    /* ============ fim terceira section ============== */
+
+
+    /* ==== QUARTA SECTION ==== */
+
+    #system-desc {
+        background-color: var(--dark-purple);
+        height: 100%;
+        padding-bottom: 5.3rem;
+       
+    }
+
+    #system-desc .pic-order-wrap {
+        order: -5;
+    }
+    #system-desc .txt-container-desc {
+        order: 4;
+    }
+    #system-desc h2,
+    #oba-section h2 {
+        color: var(--pink);
+        font-size: 2.2rem;
+        padding: 2rem 0;
+    }
+
+    #system-desc picture,
+    #oba-section picture {
+        width: 100%;
+    }
+
+    #system-desc picture img,
+    #oba-section picture img {
+        width: 100%;
+    }
+
+    #oba-section .list-order {
+        order: 5;
+    }
+
+    #oba-section .pic-oba {
+        order: 5;
+    }
+
+    #system-desc .desc-block {
+        margin: 1rem 0;
+    }
+
+    #system-desc .desc-block p {
+        line-height: 1.1;
+    }
+
+    #oba-section {
+        background: var(--dark-purple);
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+
+    #oba-section p {
+        margin: 1rem 0;
+    }
+
+   .numbers-wrap {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .numbers-wrap img {
+       width: 5rem;
+       margin: 0.5rem 1rem 0.5rem 0;
+   }
+
+   .number {
+       display: flex;
+       align-items: center;
+   }
+
+   .number span {
+       font-size: 1.4rem;
+       font-family: var(--font-1);
+   }
+
+   /* =========== CENTRAL CONECTA =================*/
+
+   #central-conecta {
+       height: 100%;
+       background-color: var(--light-purple);
+       overflow: hidden;
+       
+   }
+
+   #central-conecta .title-wrapper {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+   #central-conecta h2 {
+       font-size: 2.4rem;
+       color: var(--pink);
+       padding: 2rem 0;
+   }
+
+   #central-conecta span img {
+       width: 2rem;
+   }
+
+   #central-conecta .paragraph {
+       text-align: center;
+   }
+
+   #central-conecta .textimg {
+       display: flex;
+       flex-direction: column;
+   }
+
+   #central-conecta .images-conecta {
+       display: flex;
+   }
+
+
+   /* ===== DICAS SECTION ===== */
+
+   #dicas-section {
+       background-color: var(--pink);
+       height: 100%;
+       overflow: hidden;
+   }
+
+   #dicas-section h2 {
+       font-size: 2rem;
+       color: var(--white);
+       padding: 3rem 0 1rem 0;
+
+   }
+
+   #dicas-section h2 + p {
+       font-size: 1.8rem;
+       color: var(--white);
+       font-weight: bold;
+       padding-bottom: 2rem;
+   }
+   #dicas-section > div > p.paragraph {
+       margin-bottom: 2rem;
+   }
+
+   #dicas-section .block-info {
+       position: relative;
+   }
+
+   #dicas-section .block-info li {
+       color: var(--white);
+       font-family: var(--font-1);
+       font-size: 1.4rem;
+       font-weight: bold;
+       margin: 0.6rem 0;
+   }
+
+   
+   #dicas-section img.hand-cel {
+       width: 320px;
+   }
+
+   #dicas-section .strong-txt {
+       font-weight: bold;
+   }
+
+   /* ======== FIM DICAS SECTION ========*/
+
+
+   /* ======== DIGITAL SECTION =========*/
+
+   #digital-section {
+       height: 100%;
+       background-color: var(--dark-purple);
+       padding: 2rem 0;
+       overflow: hidden;
+   }
+
+   #digital-section h2 {
+       font-size: 2rem;
+       color: var(--green);
+       padding: 2rem 15px;
+   }
+
+
+   #digital-section .digital-finger {
+       width: 300px;
+   }
+
+   #digital-section .digital-icon {
+       width: 100px;
+   }
+
+   #digital-section p {
+       padding: 3rem 15px;
+   }
+   #digital-section .container-txt p {
+        display: none;
+    }
+
+   /* ===== moments section ======*/
+
+   #moments {
+       height: 100%;
+       background-color: var(--pink);
+       overflow: hidden;
+   }
+
+   #moments .wrap-content {
+       display: flex;
+       flex-direction: column;
+   }
+
+   #moments .wrap-content h2 {
+       padding: 2rem 15px;
+       color: var(--dark-purple);
+       font-size: 2.4rem;
+   }
+
+   #moments .wrap-content picture,
+   #moments .wrap-content img {
+       width: 100%;
+   }
+   #moments .details {
+       padding: 0 15px;
+   }
+   #moments h3 {
+       color: var(--white);
+       font-size: 1.5rem;
+       padding: 1.5rem 0;
+   }
+
+   .cam-details {
+       width: 100%;
+   }
+
+   #depoiments {
+       height: 100%;
+       background: var(--white);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       overflow: hidden;
+   }
+
+   #depoiments h2 {
+       color: var(--pink);
+       font-size: 2rem;
+       padding: 2rem 0;
+   }
+
+   #depoiments > .container img {
+       width: 100%;
+       padding-bottom: 2rem;
+   }
+
+   .content-selo {
+       width: 100%;
+       height: 100%;
+       background: var(--pink);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       overflow: hidden;
+       flex-direction: column;
+   }
+
+   .selo-wrapper {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .selo-wrapper img {
+       width: 100px;
+   }
+
+   .content-selo h3 {
+       color: var(--white);
+       font-size: 2rem;
+       padding: 2rem 15px;
+   }
+
+   .content-selo .wrap-txt {
+       padding: 0 15px;
+   }
+
+   .content-selo .block-all {
+        width: 100%;
+    }
+
+    .content-selo .block-left {
+        width: 50%;
+        float: left;
+    }
+
+    .content-selo .block-right,
+    .content-selo .block-right-int {
+        width: 50%;
+        float: right;
+    }
+
+    .content-selo .obacel-depoiments-img {
+        width: 20rem;
+        position: relative;
+        left: -11rem;
+    }
+
+    .content-selo img.selo {
+        width: 10rem;
+    }
+
+   #guia {
+       height: 100%;
+       background: var(--light-purple);
+   }
+
+   #guia picture, #guia img {
+       width: 100%;
+   }
+
+   #guia .title-section {
+       font-size: 1.7rem;
+       color: var(--yellow);
+       padding: 2rem 0;
+       font-weight: 900;
+       font-family: var(--font-2);
+   }
+
+   #guia .grid-guide {
+       display: flex;
+       flex-direction: column;
+   }
+
+   #guia .grid-guide .guia-txt {
+       color: var(--pink);
+       padding: 1rem 0;
+       font-size: 1.6rem;
+       font-family: var(--font-2);
+       font-weight: bold;
+   }
+
+   #guia .grid-guide .obasmart-wrapper,
+   #guia .grid-guide .obasmart {
+       width: 100%;
+   }
+
+   #guia .guia-rapido {
+       display: flex;
+       justify-content: center;
+       padding: 1rem 0;
+   }
+   #guia .guia-rapido img {
+       width: 15rem;
+   }
+
+   .bonus-wrapper {
+       display: flex;
+       justify-content: center;
+   }
+   .bonus-wrapper > p {
+       font-size: 1.5rem;
+       padding: 2rem 0;
+   }
+   .bonus-wrapper p span {
+       font-weight: bold;
+       text-transform: uppercase;
+       font-family: var(--font-2);
+   }
+   .promo-wrapper {
+       display: flex;
+       flex-direction: column;
+   }
+   .bonus-desc {
+       display: flex;
+   }
+   .bonus-desc .bonus {
+       display: flex;
+       align-items: flex-start;
+   }
+   #guia .grid-guide .bonus-desc .bonus img {
+       width: 1rem;
+   }
+
+   .bonus-desc .bonus span {
+       font-family: var(--font-2);
+       font-weight: bold;
+       margin: 0 0.8rem;
+       word-wrap: break-word;
+   }
+
+   .promo-wrapper .promo .price {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 2rem 0;
+   }
+
+   .promo-wrapper .promo .price .price-parcelado {
+       font-family: var(--font-2);
+       font-size: 1.5rem;
+   }
+
+   .promo-wrapper .promo .price p span {
+       font-size: 2rem;
+       font-family: var(--font-2);
+   }
+
+   .promo-wrapper .promo .price .btn-wrap {
+       margin-top: 1rem;
+   }
+
+   /* ====== FAQ ======= */
+
+   #faq {
+       height: 100%;
+       background-color: var(--light-purple);
+       padding: 4rem 0;
+   }
+
+   #faq .questions-wrapper {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+   #faq h2 {
+       font-weight: bold;
+       font-family: var(--font-2);
+       font-size: 1.7rem;
+       color: var(--pink);
+       display: block;
+       padding: 1rem 0;
+   }
+
+   #faq .questions-wrapper .question-wrap .question p {
+       font-size: 1.5rem;
+       color: var(--pink);
+       padding: 1rem 0;
+       font-family: var(--font-2);
+   }
+
+   #faq .questions-wrapper .question-wrap .answer p {
+       font-size: 1.2rem;
+   }
+
+   #tech-desc h2 {
+       font-size: 2.6rem;
+       color: var(--pink);
+       text-align: center;
+       padding: 3rem 0;
+   }
+
+   .flex-container-wrap {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .img-line-container {
+       text-align: center;
+   }
+   .grid-tech-wrap picture {
+       width: 100%;
+       text-align: center;
+       
+   }
+    .grid-tech-wrap picture img {
+       width: 50%;
+       text-align: center;
+   }
+
+   .specification-txt {
+       margin: 4rem 0;
+   }
+
+   .specification-txt p {
+       font-family: var(--font-1);
+       font-weight: bold;
+   }
+
+
+}
+@media(min-width: 768px) {
+    #header .header-content a {
+        display: block;
+        color: var(--white);
+        text-decoration: none;
+        font-family: var(--font-1);
+    }
+
+    #main-section h2 {
+        font-size: 3.5rem;
+        max-width: 34.2rem;
+    }
+    #main-section p {
+        max-width: 21.9rem;
+    }
+
+    #product-desc-section h2 {
+        font-size: 3rem;
+    }
+
+    #benefits-section h2 {
+        font-size: 3rem;
+        padding: 4rem 0;
+    }
+    #benefits-section .obasmart-md {
+        display: block;
+        padding-top: 20rem;
+    } 
+    #benefits-section picture img.obasmart-beneficios {
+        width: 100%;
+    }
+
+    #benefits-section img.garantia {
+        width: 10rem;
+        position: relative;
+        top: -5rem;
+        left: 12.7rem;
+    }
+
+    #system-desc .text-system-desc {
+        align-items: center;
+    }
+
+    #system-desc h2 {
+        font-size: 4rem;
+        padding: 5rem 0 0 0;
+    }
+
+    #oba-section {
+        padding: 3rem 0;
+    }
+    #oba-section picture img {
+        width: 60%;
+    }
+    #oba-section .list-order {
+        order: 0;
+    }
+
+    #oba-section .pic-oba {
+        order: 0;
+    }
+    
+    #central-conecta .images-conecta {
+        display: none;
+    }
+
+    #dicas-section {
+        padding-bottom: 4rem;
+    }
+    #dicas-section h2 {
+        font-size: 3rem;
+    }
+
+    #dicas-section img.hand-cel {
+        width: 42rem;
+    }
+
+    #digital-section .container-txt {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    #digital-section .container-txt h2 {
+        font-size: 3.4rem;
+    }
+
+    #digital-section .container-txt p {
+        display: block;
+        max-width: 37.8rem;
+    }
+
+    #digital-section .digital-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    #digital-section .digital-icon {
+        width: 18rem;
+    } 
+
+    #digital-section .txt-mobile {
+        display: none;
+    }
+    #digital-section .digital-finger {
+        width: 80%;
+    }
+    #moments .wrap-content h2 {
+        font-size: 3rem;
+    }
+    #moments .wrap-content picture, #moments .wrap-content img {
+        width: 50rem;
+    }
+
+    #moments .wrap-content {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #moments .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #moments .details .cam-wrap {
+        order: -2;
+    }
+
+    #depoiments {
+        padding-bottom: 5rem;
+    }
+    #depoiments h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .content-selo {
+        width: 90%;
+        border-radius: 5rem;
+    }
+    #depoiments > .container img {
+        padding-bottom: 8rem;
+    }
+    .block-left {
+        padding-bottom: 2rem;
+    }
+     .block-right-int {
+        position: relative;
+    }
+
+    .content-selo .obacel-depoiments-img {
+        width: 18rem;
+        position: absolute;
+        left: -11rem;
+        top: -3.6rem;
+    }
+
+
+    .content-selo img.selo {
+        width: 17.5rem;
+        left: 4.4rem;
+        top: -7.1rem;
+        position: relative;
+    }
+
+    .flex-container-wrap {
+        align-items: end;
+    }
+    .grid-tech-wrap picture img {
+        width: 60%;
+        padding: 4rem 0;
+    }
+
+    #guia .two-ladies-banner {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #guia .title-section {
+        font-size: 2.7rem;
+    }
+    #guia .grid-guide .guia-txt {
+        font-size: 2.3rem;
+    }
+    .bonus-desc {
+        flex-direction: column;
+    }
+    .promo-wrapper .promo .price {
+        align-items: flex-start;
+    }
+    #guia .grid-guide .bonus-desc .bonus img {
+        width: 1.3rem;
+    }
+    .bonus-desc .bonus span {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .btn-green {
+        padding: 0.8rem 3rem;
+    }
+
+    #guia .guia-rapido img {
+        width: 20rem;
+    }
+    #faq h2 {
+        font-size: 3rem;
+    }
+
+    #faq .questions-wrapper .question-wrap .question p {
+        font-size: 1.8rem;
+    }
+
+    #faq .questions-wrapper .question-wrap .answer p {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width: 999px) {
+    #main-section {
+        background: url(../images/bg-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #main-section h2 {
+        font-size: 5rem;
+    }
+    #main-section p {
+        max-width: 25.9rem;
+        font-size: 2rem;
+    }
+    #header p {
+        font-size: 2rem;
+        max-width: none;
+    }
+
+    #header .header-content a {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        padding: 0.6rem 3rem;
+    }
+
+    #product-desc-section .content-block {
+        align-items: center;
+    }
+    #product-desc-section img {
+        width: 70%;
+    }
+    #product-desc-section h2 {
+        font-size: 4rem;
+    }
+    #product-desc-section p {
+        font-size: 2rem;
+    }
+
+    /******* BENEFITS SECTION ********/
+    #benefits-section h2 {
+        font-size: 4rem;
+    }
+    #benefits-section .obasmart-md {
+        padding-top: 5rem;
+    }
+     #benefits-section picture img.obasmart-beneficios {
+         width: 70%;
+     }
+
+    #benefits-section img.garantia {
+        width: 13rem;
+        left: 23.7rem;
+    }
+
+    #benefits-section .benefit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    #benefits-section .icon-benefits {
+        width: 9rem;
+    }
+    #benefits-section .benefit-txt {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin: 0 3rem;
+    }
+
+    #benefits-section .icon-title {
+        font-size: 2rem;
+    }
+
+    #system-desc h2, #oba-section h2 {
+        font-size: 4.8rem;
+    }
+    #system-desc .desc-block p,
+    #oba-section p {
+        font-size: 2rem;
+    }
+    #system-desc .desc-block p {
+        margin: 3rem 0;
+    }
+    .number span {
+        font-size: 2rem;
+    }
+
+    #central-conecta .title-wrapper {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    #central-conecta h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    #central-conecta span img {
+        width: 3rem;
+    }
+    #central-conecta .textimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #central-conecta .man-bg {
+        background: url(../images/man-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    #central-conecta .woman-bg {
+        background: url(../images/woman-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    #central-conecta .paragraph {
+        font-size: 2rem;
+        max-width: 50%;
+    }
+    #dicas-section {
+        padding-bottom: 0;
+    }
+    #dicas-section .block-info li {
+        font-size: 2rem;
+    }
+    img.hand-cel {
+        width: 80%;
+    }
+    #digital-section .container-txt h2 {
+        font-size: 5rem;
+        max-width: 40%;
+    }
+    #digital-section .container-txt p {
+        font-size: 2rem;
+        max-width: 61.8rem;
+    }
+
+    #digital-section .digital-icon {
+        width: 30rem;
+    }
+    .wrap-content, #moments .details {
+        padding: 0 0 0 20rem;
+    }
+    #moments .wrap-content h2 {
+        font-size: 5rem;
+        max-width: 45%;
+    }
+
+    #moments .wrap-content picture, #moments .wrap-content img {
+        width: 100%;
+    }
+
+    #moments .txt.col-md-6 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #moments h3 {
+        font-size: 2rem;
+    }
+    #moments > div.details > div > div.txt.col-md-6 > p {
+        font-size: 3rem;
+    }
+
+    #depoiments > .container img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .content-selo {
+        width: 45%;
+    }
+
+    .content-selo .wrap-txt p {
+        font-size: 2rem;
+    }
+
+    .content-selo h3 {
+        font-size: 3rem;
+        padding: 2rem 0 2rem 15px;
+    }
+    
+    .block-left {
+        padding: 2rem 0;
+    }
+
+
+    .block-right-int {
+        position: relative;
+    }
+
+    .content-selo .obacel-depoiments-img {
+        width: 22rem;
+        /*position: absolute;
+        left: -11rem;*/
+        top: -5.6rem;
+    }
+
+
+    .content-selo img.selo {
+        width: 26rem;
+        /*left: 4.4rem;
+        top: -7.1rem;*/
+        /*position: relative;*/
+    }
+
+    #guia .two-ladies-banner {
+        width: 68%;
+    }
+
+    #guia .title-section {
+        font-size: 5rem;
+        padding: 6rem 0;
+    }
+    #guia img.frete-gratis {
+        width: 60%;
+    }
+    #guia .grid-guide .guia-txt {
+        font-size: 4.3rem;
+    }
+    .promo-wrapper .promo .price .price-parcelado {
+        font-size: 3rem;
+    }
+    .promo-wrapper .promo .price p span {
+        font-size: 4rem;
+    }
+    #guia .guia-rapido img {
+        width: 30rem;
+    }
+
+    #faq .questions-wrapper .question-wrap .answer p {
+        font-size: 2rem;
+    }
+
+    #tech-desc h2 {
+        font-size: 5rem;
+    }
+}
+
+
+
